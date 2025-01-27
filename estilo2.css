@@ -1,0 +1,20 @@
+
+
+.contenedor_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    gap: 35px;
+
+}
+
+.contenedor_img img{
+    width: 380px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+

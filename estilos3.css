@@ -1,0 +1,42 @@
+
+
+
+.galeria-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.contenedor-imagen{
+    flex: 1;
+    max-width: 500px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    
+}
+
+.contenedor-imagen img{
+    width: 100%;
+    height: auto;
+    display: block; /*Eliminar los espacios de las imagenes*/
+
+
+
+}
+
+@media (max-width: 768px){
+    .galeria-imagenes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor-imagen{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
