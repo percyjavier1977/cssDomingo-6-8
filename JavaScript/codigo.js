@@ -1,0 +1,1 @@
+document.querySelector("h2").textContent = "Finalizando la clase de JavaScript";
