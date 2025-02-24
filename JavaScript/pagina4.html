@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo JavaScript</title>
+
+</head>
+<body>
+    <h1>JavaScript y Funciones</h1>
+    <p>Si haces clic en el boton cambiará el color del fondo y el texto del párrafo</p>
+    <button onclick="cambiaTextoyFondo()">Aplicar cambios</button>
+
+    <script>
+        function cambiaTextoyFondo(){
+            document.body.style.backgroundColor="lightblue";
+            document.querySelector("p").innerHTML = "<u>El color de fondo y el texto ha cambiado</u>";
+        }
+    </script>
+</body>
+</html> 

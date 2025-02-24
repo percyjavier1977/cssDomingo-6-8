@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #resultado{
+            color: brown;
+            font-size: 35px;
+        }
+    </style>
+
+    <title>Aprendiendo JavaScript</title>
+</head>
+<body>
+    <h1>Sumar dos números</h1>
+    <p>El resultado de la suma es: <strong id="resultado">0</strong></p>
+    <button id="sumar">Sumar 10 + 5</button>
+    <script>
+        let n1 = 10;
+        let n2 = 5;
+
+        document.getElementById('sumar').addEventListener("click",function(){
+            let suma = n1 + n2;
+            document.getElementById('resultado').textContent = suma;
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo JavaScript</title>
+</head>
+<body>
+    <h1>Operaciones Matemáticas</h1>
+    <h3>Numero1: 10</h3>
+    <h3>Número2: 5</h3>
+    <p id="suma">--</p>
+    <p id="resta">--</p>
+    <p id="multi">--</p>
+    <p id="divi">--</p>
+
+    <button onclick="operacionesMatematicas()">Calcular</button>
+
+    <script>
+        let num1 = 10;
+        let num2 = 5;
+        //Operaciones matemáticas
+        let suma = num1 + num2;
+        let resta = num1 - num2;
+        let multi = num1 * num2;
+        let divi = num1 / num2;
+
+        function operacionesMatematicas(){
+            document.getElementById('suma').textContent = "Suma: " + suma;
+            document.getElementById('resta').textContent = "Resta: " + resta;
+            document.getElementById('multi').textContent = "Multiplicación: " + multi;
+            document.getElementById('divi').textContent = "División: " + divi;
+        }
+
+    </script>
+    
+
+</body>
+</html>
